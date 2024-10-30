@@ -4,3 +4,5 @@ namespace: default
 resources:
   - ../../../../base/wt-monitoring-app
   - e101-config-map.yaml
+  - e101-config.yaml
+
