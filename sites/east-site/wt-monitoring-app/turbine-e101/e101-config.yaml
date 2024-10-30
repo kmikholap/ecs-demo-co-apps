@@ -24,8 +24,3 @@ spec:
             configMapKeyRef:
               name: e101-config-map
               key: TURBINE_INFO
-        - name: WEBSOCKET_URL
-          valueFrom:
-            configMapKeyRef:
-              name: e101-config-map
-              key: WEBSOCKET_URL
