@@ -1,6 +1,8 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namespace: default
+metadata:
+  name: backend-api-customization
+  namespace: default
 resources:
   - ../../../../base/wt-monitoring-app
   - e101-config-map.yaml
