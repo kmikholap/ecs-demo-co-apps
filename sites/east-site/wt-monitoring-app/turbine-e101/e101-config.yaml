@@ -12,20 +12,20 @@ spec:
         - name: SITE_NAME
           valueFrom:
             configMapKeyRef:
-              name: backend-us-east-site-01-e101
+              name: e101-config-map
               key: SITE_NAME
         - name: TURBINE_NAME
           valueFrom:
             configMapKeyRef:
-              name: backend-us-east-site-01-e101
+              name: e101-config-map
               key: TURBINE_NAME
         - name: TURBINE_INFO
           valueFrom:
             configMapKeyRef:
-              name: backend-us-east-site-01-e101
+              name: e101-config-map
               key: TURBINE_INFO
         - name: WEBSOCKET_URL
           valueFrom:
             configMapKeyRef:
-              name: backend-us-east-site-01-e101
+              name: e101-config-map
               key: WEBSOCKET_URL
