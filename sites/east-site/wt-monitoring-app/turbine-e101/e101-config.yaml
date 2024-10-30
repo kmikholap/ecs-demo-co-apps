@@ -24,3 +24,8 @@ spec:
             configMapKeyRef:
               name: backend-us-east-site-01-e101
               key: TURBINE_INFO
+        - name: WEBSOCKET_URL
+          valueFrom:
+            configMapKeyRef:
+              name: backend-us-east-site-01-e101
+              key: WEBSOCKET_URL
