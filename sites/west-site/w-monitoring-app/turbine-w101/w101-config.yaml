@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backend-api
-  namespace: wind-turbine-demo
+  namespace: default
 spec:
   template:
     spec:
@@ -12,15 +12,15 @@ spec:
         - name: SITE_NAME
           valueFrom:
             configMapKeyRef:
-              name: backend-us-west-site-01-w101
+              name: w101-config-map
               key: SITE_NAME
         - name: TURBINE_NAME
           valueFrom:
             configMapKeyRef:
-              name: backend-us-west-site-01-w101
+              name: w101-config-map
               key: TURBINE_NAME
         - name: TURBINE_INFO
           valueFrom:
             configMapKeyRef:
-              name: backend-us-west-site-01-w101
+              name: w101-config-map
               key: TURBINE_INFO
