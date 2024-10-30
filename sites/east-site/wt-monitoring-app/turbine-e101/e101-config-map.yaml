@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: backend-us-east-site-01-e101
-  namespace: wind-turbine-demo
+  namespace: default
 
 data:
   SITE_NAME: "us-east-onshore-site-01"

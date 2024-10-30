@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backend-api
-  namespace: wind-turbine-demo
+  namespace: default
 spec:
   template:
     spec:
