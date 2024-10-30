@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: backend-us-east-site-01-e101
+  name: e101-config-map
   namespace: default
 
 data:
